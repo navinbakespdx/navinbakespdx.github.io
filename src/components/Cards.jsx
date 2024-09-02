@@ -57,7 +57,7 @@ function Cards() {
 						>
 							<Card.Img
 								variant="top"
-								src="./images/IMG_1920-card.jpg"
+								src="./images/IMG_5179-card.jpeg"
 								className="card-img"
 							/>
 							<Card.Body>
@@ -140,7 +140,7 @@ function Cards() {
 							border="secondary"
 							style={{ maxWidth: "400px" }}
 						>
-							<Card.Img variant="top" src="./images/IMG_5125-card.jpeg" />
+							<Card.Img variant="top" src="./images/IMG_5181-card.jpeg" />
 							<Card.Body>
 								<Card.Title>Small Fruit Tart</Card.Title>
 								<Card.Text>Individual sized fruit tarts</Card.Text>
@@ -218,7 +218,7 @@ function Cards() {
 							border="secondary"
 							style={{ maxWidth: "400px" }}
 						>
-							<Card.Img variant="top" src="./images/IMG_1893-card.jpg" />
+							<Card.Img variant="top" src="./images/IMG_1950-card.jpeg" />
 							<Card.Body>
 								<Card.Title>Scones</Card.Title>
 								<Card.Text>
@@ -233,7 +233,7 @@ function Cards() {
 							border="secondary"
 							style={{ maxWidth: "400px" }}
 						>
-							<Card.Img variant="top" src="./images/IMG_5134-card.jpg" />
+							<Card.Img variant="top" src="./images/IMG_1953-card.jpeg" />
 							<Card.Body>
 								<Card.Title>Artisan White Bread</Card.Title>
 								<Card.Text>
