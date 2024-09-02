@@ -1,0 +1,9 @@
+.info-content {
+	color: white;
+	background-color: rgb(58, 58, 58);
+	padding: 20px;
+}
+
+.info-content > p {
+	margin-bottom: 0;
+}

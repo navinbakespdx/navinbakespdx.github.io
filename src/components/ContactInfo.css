@@ -1,0 +1,66 @@
+.contact-content {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	background-color: rgb(41, 41, 41);
+}
+
+body {
+	margin: 0;
+	background-color: rgb(41, 41, 41);
+}
+
+.contact-text {
+	z-index: 1;
+	grid-area: 1/-1;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.image-grid {
+	grid-area: 1/-1;
+	--gap: 10px;
+	--num-cols: 2;
+	--row-height: 43vh;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(40%);
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 1;
+		--row-height: 200px;
+	}
+}
+
+.contact-button {
+	width: 80%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}

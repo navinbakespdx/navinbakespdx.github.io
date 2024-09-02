@@ -1,0 +1,12 @@
+a.nav-link {
+	position: relative;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.navbar-nav > li {
+	padding-left: 15px;
+	padding-right: 15px;
+}
