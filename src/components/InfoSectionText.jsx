@@ -20,13 +20,13 @@ function InfoSectionText() {
 				science at UC Davis and thought it would be fun to document the things I
 				make on a website.
 			</p>
-			<Link to="/contact" style={{ textDecoration: "none" }}>
-				<div style={{ textAlign: "center", marginTop: "20px" }}>
+			<div style={{ textAlign: "center", marginTop: "20px" }}>
+				<Link to="/contact" style={{ textDecoration: "none" }}>
 					<Button variant="info" size="lg" href="/contact">
 						Contact Me!
 					</Button>
-				</div>
-			</Link>
+				</Link>
+			</div>
 		</div>
 	);
 }
